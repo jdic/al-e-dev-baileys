@@ -1,0 +1,28 @@
+{
+  "name": "al-e-dev-baileys",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.30.3",
+    "astro": "^5.0.2",
+    "sharp": "^0.32.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0",
+    "husky": "^9.1.7",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.2"
+  }
+}
